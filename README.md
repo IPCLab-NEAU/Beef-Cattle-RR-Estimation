@@ -57,3 +57,4 @@ The experimental results of abdominal segmentation models are shown below.
 | SOLOv2 | 46.229 | 139.0 | 47.7 | 20.0 |
 | YOLOv8n-seg | 3.258 | 12.0 | 75.5 | 38.3 |
 | YOLO11n-seg | 2.835 | 10.2 | 73.7 | 37.2 |
+| YOLO26n-seg | 2.689 | 9.0 | 70.5 | 31.3 |
