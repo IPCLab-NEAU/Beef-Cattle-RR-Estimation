@@ -14,7 +14,7 @@ Extraction code: please email at [bsdai@neau.edu.cn](mailto:bsdai@neau.edu.cn).
 ### 📁 Dataset Structure
 
 ```text
-Beef-Cattle-Abdomen-Segmentation/
+Beef-Cattle-RR-Estimation/
 ├── images/
 │   ├── train/
 │   │   ├── 001_D02_20240801002449_start00507_len60_000001.jpg
@@ -42,10 +42,12 @@ Beef-Cattle-Abdomen-Segmentation/
 │       ├── 015_D08_20240903091705_start02246_len60_000002.txt
 │       └── ...
 └── abdomen_yolo_seg.yaml
+```
 
 The dataset contains RGB images sampled from practical beef cattle surveillance videos. The visible abdominal regions of lying cattle were manually annotated and converted into YOLO-seg format.
 
 ## 2️⃣ Results
+
 The experimental results of abdominal segmentation models are shown below.
 
 | Method | Params (M) ↓ | GFLOPs ↓ | Mask mAP50 (%) ↑ | Mask mAP50-95 (%) ↑ |
