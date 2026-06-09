@@ -48,6 +48,8 @@ The dataset contains RGB images sampled from practical beef cattle surveillance 
 
 ## 2️⃣ Results
 
+### Abdominal ROI Segmentation for RR Estimation
+
 The experimental results of abdominal segmentation models are shown below.
 
 | Method | Params (M) ↓ | GFLOPs ↓ | Mask mAP50 (%) ↑ | Mask mAP50-95 (%) ↑ |
@@ -58,3 +60,9 @@ The experimental results of abdominal segmentation models are shown below.
 | YOLOv8n-seg | 3.258 | 12.0 | 75.5 | 38.3 |
 | YOLO11n-seg | 2.835 | 10.2 | 73.7 | 37.2 |
 | YOLO26n-seg | 2.689 | 9.0 | 70.5 | 31.3 |
+
+### Respiratory Rate Estimation
+
+| Method | MAE (bpm) ↓ | RMSE (bpm) ↓ | r ↑ |
+|---|---:|---:|---:|
+|Ours | 2.59 | 3.36 | 0.96 |
