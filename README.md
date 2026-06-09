@@ -63,6 +63,6 @@ The experimental results of abdominal segmentation models are shown below.
 
 ### Respiratory Rate Estimation
 
-| Method | MAE (bpm) ↓ | RMSE (bpm) ↓ | r ↑ |
+| Method | MAE (bpm) | RMSE (bpm) | r |
 |---|---:|---:|---:|
 |Ours | 2.59 | 3.36 | 0.96 |
